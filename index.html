@@ -99,6 +99,102 @@ I worked in <a style="text-align: justify; font-size: 14px;" href="http://speech
 				<p align="right"><a href="http://www.clsp.jhu.edu/_dataproviders/bibtex_export.php?author=91" title="Export Vijayaditya Peddinti&#39;s Publications to BibTeX"><img src="./index_files/bibtex.png" alt=""></a>&nbsp;&nbsp;<a class="expand cursor compress"></a></p>
 
 
+				<h3>2016</h3>
+
+				<!-- Paper 1-->
+				<a id="peddinti2016ami"></a>
+				<div id="pub-1052" class="publications">
+                    <p>
+                    <a class="title-link" href="https://github.com/vijayaditya/vijayaditya.github.io/raw/master/other_files/ami_clean.pdf" target="_blank">
+					Far-field ASR without parallel data<br>
+					<a href="http://vijaypeddinti.com" target="_blank">Vijayaditya Peddinti</a>, Vimal Manohar, Yiming Wang, <a href="http://www.danielpovey.com/" target="_blank">Daniel Povey</a> and <a href="http://www.clsp.jhu.edu/~sanjeev/" target="_blank">Sanjeev Khudanpur</a><br>
+					<em>Submitted to Interspeech, 2016</em></p>
+
+					<p align="right"><a id="abstract-1052" class="cursor" rel="toggle" title="Far-field ASR without parallel data">[abstract]</a> <a id="bib-1052" class="cursor" rel="toggle" title="Far-field ASR without parallel data">[bib]</a></p><div id="abstract-1052" class="hide abstract" style="display: none;">
+                        <h3>Abstract</h3>
+
+                        In far-field speech recognition systems, training
+                        acoustic models with alignments generated from parallel
+                        close-talk microphone data provides significant
+                        improvements. However it is not practical to assume the
+                        availability of large corpora of parallel close-talk
+                        microphone data, for training. In this paper we
+                        explore methods to reduce the performance gap between
+                        far-field ASR systems trained with alignments from
+                        distant microphone data and those trained with
+                        alignments from parallel close-talk microphone data.
+                        These methods include the use of a lattice-free
+                        sequence objective function which tolerates minor
+                        mis-alignment errors; and the use of data selection
+                        techniques to discard badly aligned data. We present
+                        results on single distant microphone and multiple
+                        distant microphone scenarios of the AMI LVCSR task. We
+                        identify prominent causes of alignment errors in AMI
+                        data.
+                    </div>
+
+					<div id="bib-1052" class="hide bib align-left">
+					@inproceedings{peddinti2016ami,<br>
+						author = {Peddinti, Vijayaditya and Manohar, Vimal and Wang, Yiming and Povey, Daniel and Khudanpur, Sanjeev}, <br>
+						title = {Far-field ASR without parallel data}, <br>
+						booktitle = {Submitted to Interspeech}<br>
+					 }</div>
+
+				</div>
+
+
+
+
+				<!-- Paper 2-->
+ 				<a id="povey2016"></a>
+ 				<div id="pub-1051" class="publications alt">
+		 			<p><a class="title-link" href="https://github.com/vijayaditya/vijayaditya.github.io/raw/master/other_files/chain.pdf" target="_blank">
+ 					Purely sequence-trained neural networks for ASR based on lattice-free MMI<br>
+ 					<a href="http://www.danielpovey.com/" target="_blank">Daniel Povey</a>, <a href="http://vijaypeddinti.com" target="_blank">Vijayaditya Peddinti</a>, Daniel Galvez, Pegah Ghahrmani, Vimal Manohar, Yiming Wang, Xingyu Na and <a href="http://www.clsp.jhu.edu/~sanjeev/" target="_blank">Sanjeev Khudanpur</a><br>
+ 					<em>Proceedings of Interspeech, 2015</em></p>
+
+                    <p align="right"><a id="abstract-1051" class="cursor" rel="toggle" title="Purely sequence-trained neural networks for ASR based on lattice-free MMI">[abstract]</a> <a id="bib-1051" class="cursor" rel="toggle" title="Purely sequence-trained neural networks for ASR based on lattice-free MMI">[bib]</a></p><div id="abstract-1051" class="hide abstract" style="display: none;"><h3>Abstract</h3>
+
+                        In this paper we describe a method to perform sequence-
+                        discriminative training of neural network acoustic
+                        models without the need for frame-level cross-entropy
+                        pre-training. We use the lattice-free version of the
+                        maximum mutual information (MMI) criterion. To make its
+                        computation feasible we use a phone n-gram language
+                        model, in place of the word language model. To further
+                        reduce its space and time complexity we compute the
+                        objective function using neural network outputs at one
+                        third the standard frame rate. These changes enable us
+                        to perform the computation for the forward-backward
+                        algorithm on GPUs. Further the reduced output
+                        frame-rate also provides a significant speed-up during
+                        decoding.  We present results on 5 different LVCSR
+                        tasks with training data ranging from 100 to 2100
+                        hours. Models trained with this lattice-free MMI
+                        criterion provide a relative word error rate reduction
+                        of ∼ 15%, over those trained with cross-entropy
+                        objective function, and ∼ 8%, over those trained with
+                        cross-entropy and sMBR objective functions. A further
+                        reduction of ∼ 2.5%, relative, can be obtained by fine
+                        tuning these models with the word-lattice based sMBR
+                        objective function.
+
+                    </div>
+
+ 					<div id="bib-1051" class="hide bib align-left">
+ 					@inproceedings{povey2016,<br>
+						author = {Povey, Daniel and Peddinti, Vijayaditya and Galvez, Daniel and Pegah Ghahrmani and Manohar, Vimal and Wang, Yiming and Na, Xingyu and Khudanpur, Sanjeev}, <br>
+						title = {Purely sequence-trained neural networks for ASR based on lattice-free MMI}, <br>
+						booktitle = {Submitted to Interspeech}<br>
+ 					}</div>
+ 				</div>
+
+
+
+
+
+
+
 
 				<!-- 2015 publications -->
 				<h3>2015</h3>
